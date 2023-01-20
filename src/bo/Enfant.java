@@ -19,4 +19,23 @@ public class Enfant {
         return "Enfant [numeroSecu=" + numeroSecu + ", nom=" + nom + ", prenom=" + prenom + ", adresse=" + adresse
                 + ", sage=" + sage + "]";
     }
+
+    // accesseurs et mutateurs
+
+    // tous les getters
+    public int getNumeroSecu() {
+        return numeroSecu;
+    }
+    public String getNom() {
+        return nom;
+    }
+    public String getPrenom() {
+        return prenom;
+    }
+    public String getAdresse() {
+        return adresse;
+    }
+    public String getSage() {
+        return sage;
+    }
 }
